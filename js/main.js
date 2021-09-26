@@ -55,6 +55,10 @@
       })
       choices.appendChild(li);
     });
+
+    if(currentNum === quizSet.length - 1){
+      btn.textContent = 'Show Score';
+    }
   }
 
   setQuiz();
